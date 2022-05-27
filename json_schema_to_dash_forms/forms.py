@@ -14,7 +14,7 @@ from collections import Counter
 from .utils import make_filebrowser_modal
 
 
-class SchemaFormItem(dbc.FormGroup):
+class SchemaFormItem(dbc.Row):
     def __init__(self, label, value, input_id, parent, required=False):
         super().__init__([])
 
