@@ -145,7 +145,7 @@ class SchemaFormItem(dbc.Row):
             field_input = html.Div([
                 dbc.InputGroup([
                     input_path,
-                    dbc.InputGroupAddon(btn_open_filebrowser, addon_type="append"),
+                    btn_open_filebrowser
                 ]),
                 modal
             ])
