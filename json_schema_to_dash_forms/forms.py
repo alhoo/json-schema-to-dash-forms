@@ -107,7 +107,6 @@ class SchemaFormItem(dbc.Row):
             field_input = dbc.Textarea(
                 id=compound_id,
                 className='string_input',
-                bs_size="lg",
                 style={'font-size': '16px'}
             )
 
@@ -155,7 +154,6 @@ class SchemaFormItem(dbc.Row):
             default = value.get('default', False)
             field_input = dbc.Checkbox(
                 id=compound_id,
-                checked=default
             )
 
         else:
